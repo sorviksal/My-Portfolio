@@ -69,7 +69,7 @@ export const Hero = () => {
                   <div className="animate-fade-in">
                     <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                       <span className="w-2 h-2 bg-primary rounded-full animate-pulse"/>
-                        Software Developer
+                        Cloud Engineer 
                     </span>
                     
                   </div>
@@ -86,7 +86,7 @@ export const Hero = () => {
                       </span>
                     </h1>
                     <p className="text-lg text-muted-foreground max-w-lg animate-fade-in">
-                      Hi, I'm Sor Visal - a software developer spacializing 
+                      Hi, I'm Sor Visal - a software developer ,  Cloud Engineer spacializing 
                       in Node JS, React, Javascript. I build scalble, performent
                       web/app application that users love.                      
                     </p>
@@ -123,7 +123,7 @@ export const Hero = () => {
                   <div className="relative max-w-md mx-auto">
                     <div className=" absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse "/>
                     <div className="relative glass rounded-3xl p-2 glow-border group">
-                      <img src="./visal.JPG" alt="Visal-Sor" className="w-full aspect-[4/5] object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105"/>
+                      <img src="./brosalgym.png" alt="Visal-Sor" className="w-full aspect-[4/5] object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105"/>
 
                       {/* Floating Badge */}
                       <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">

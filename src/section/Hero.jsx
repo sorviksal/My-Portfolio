@@ -34,7 +34,7 @@ export const Hero = () => {
       {/* Background */}
       <div className="absolute inset-0">
         <img 
-          src="./hero-bg3.jpg" 
+          src="./cartoon-night-sky.jpg" 
           alt="Hero Image" 
           className="w-full h-full object-cover opacity-40" 
         />

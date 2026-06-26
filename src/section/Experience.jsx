@@ -4,7 +4,7 @@ const experience = [
         role: "Web Development",
         company: "Asia Euro University",
         description: "Develop of System and implement",
-        technology: ["React JS", "Angular JS", "Javascript", "Typescript", "ASP.NET Core","Express JS", "PostgreSQL", "MySQL", "SQL Server", "Progressive Web App"],
+        technology: ["React JS", "Javascript", "Typescript", "ASP.NET Core","Express JS", "PostgreSQL", "SQL Server"],
         current: true,
     },
     {

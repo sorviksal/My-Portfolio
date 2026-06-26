@@ -7,9 +7,7 @@ import {
   SiPostgresql,
   SiHtml5,
   SiGithub,
-  SiAngular,
   SiCss,
-  SiMysql,
 } from "react-icons/si";
 
 const skills = [
@@ -28,7 +26,6 @@ const skills = [
       />
     ),
   },
-
   { name: "HTML5", Icon: SiHtml5, color: "#E34F26" },
   { name: "GitHub", Icon: SiGithub, color: "#ffffff" },
   {
@@ -41,10 +38,17 @@ const skills = [
       />
     ),
   },
-
-  { name: "Angular", Icon: SiAngular, color: "#DD0031" },
   { name: "CSS3", Icon: SiCss, color: "#1572B6" },
-  { name: "MySQL", Icon: SiMysql, color: "#4479A1" },
+  {
+    name: "C#",
+    Icon: () => (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+        alt="C#"
+        style={{ width: 32, height: 32 }}
+      />
+    ),
+  },
 ];
 
 export const TechGlobe = () => {

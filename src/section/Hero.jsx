@@ -34,7 +34,7 @@ export const Hero = () => {
       {/* Background */}
       <div className="absolute inset-0">
         <img 
-          src="./cartoon-night-sky.jpg" 
+          src="./hero-bg2.jpg" 
           alt="Hero Image" 
           className="w-full h-full object-cover opacity-40" 
         />
@@ -69,7 +69,7 @@ export const Hero = () => {
                   <div className="animate-fade-in">
                     <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                       <span className="w-2 h-2 bg-primary rounded-full animate-pulse"/>
-                        Cloud Engineer 
+                         Software Developer 
                     </span>
                     
                   </div>
@@ -123,7 +123,7 @@ export const Hero = () => {
                   <div className="relative max-w-md mx-auto">
                     <div className=" absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse "/>
                     <div className="relative glass rounded-3xl p-2 glow-border group">
-                      <img src="./brosalgym.png" alt="Visal-Sor" className="w-full aspect-[4/5] object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105"/>
+                      <img src="./loy.jpg" alt="Visal-Sor" className="w-full aspect-[4/5] object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105"/>
 
                       {/* Floating Badge */}
                       <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
@@ -135,8 +135,8 @@ export const Hero = () => {
                       </div>
                       {/* Stats Badge */}
                       <div className=" absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-30">
-                        <div className="text-2xl font-bold text-primary">8+</div>
-                        <div className="text-xs text-muted-foreground">Months Exper.</div>
+                        <div className="text-2xl font-bold text-primary">1</div>
+                        <div className="text-xs text-muted-foreground">Year Exper.</div>
                       </div>
                     </div>
                   </div>
